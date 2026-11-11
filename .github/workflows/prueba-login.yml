@@ -2,9 +2,6 @@
 # descargas del Release prueba-login-google-v1. Los binarios nunca entran al repo.
 name: prueba-login
 on:
-  push:
-    branches: [main]
-    paths: ['prototipos/login-google/**', '.github/workflows/prueba-login.yml']
   workflow_dispatch:
 permissions: { contents: write }
 env: { TAG: prueba-login-google-v1 }

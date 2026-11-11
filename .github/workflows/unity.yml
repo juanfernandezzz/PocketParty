@@ -4,9 +4,6 @@
 name: unity
 
 on:
-  push:
-    branches: [main]
-    paths: ['unity/**', 'panel/**', 'motor/**', 'pagina/**', 'instalador/**', 'scripts/unity/**', '.github/workflows/unity.yml']
   workflow_dispatch:
 
 permissions:
